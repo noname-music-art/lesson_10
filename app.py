@@ -31,4 +31,5 @@ def page_skills(skill):
     return result
 
 
-app.run()
+if __name__ == "__main__":
+    app.run()
